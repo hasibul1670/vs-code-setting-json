@@ -1,74 +1,120 @@
 {
-    // editor
-    "editor.fontSize": 18,
-    // "editor.fontFamily": "Fira Code",
-    // "editor.fontFamily": "JetBrains Mono",
-    "editor.fontFamily": "JetBrains Mono",
-   
-    "editor.fontLigatures": true,
-    "editor.wordWrap": "on",
-    "editor.minimap.enabled": false,
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic"
-          }
+  // editor
+  "editor.fontSize": 18,
+  // "editor.fontFamily": "Fira Code",
+  // "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrains Mono",
+
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
         }
-      ]
-    },
-    // cursor
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    // config related to code formatting
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "[javascript]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
-    },
-    "[javascriptreact]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
-      "source.fixAll.tslint": "explicit",
-      "source.organizeImports": "explicit"
-    },
-    "eslint.alwaysShowStatus": true,
-    //terminal
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontFamily": "Fira Code",
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "workbench.iconTheme": "material-icon-theme",
-    // terminal customization
-    "workbench.colorCustomizations": {
-      "terminal.background": "#1D2021",
-      "terminal.foreground": "#A89984",
-      "terminalCursor.background": "#A89984",
-      "terminalCursor.foreground": "#A89984",
-      "terminal.ansiBlack": "#1D2021",
-      "terminal.ansiBlue": "#0D6678",
-      "terminal.ansiBrightBlack": "#665C54",
-      "terminal.ansiBrightBlue": "#0D6678",
-      "terminal.ansiBrightCyan": "#8BA59B",
-      "terminal.ansiBrightGreen": "#95C085",
-      "terminal.ansiBrightMagenta": "#8F4673",
-      "terminal.ansiBrightRed": "#FB543F",
-      "terminal.ansiBrightWhite": "#FDF4C1",
-      "terminal.ansiBrightYellow": "#FAC03B",
-      "terminal.ansiCyan": "#8BA59B",
-      "terminal.ansiGreen": "#95C085",
-      "terminal.ansiMagenta": "#8F4673",
-      "terminal.ansiRed": "#FB543F",
-      "terminal.ansiWhite": "#A89984",
-      "terminal.ansiYellow": "#FAC03B"
-    },
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "editor.mouseWheelZoom": true,
-    "files.autoSave": "afterDelay"
-  }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    // Left Bar
+    "activityBar.background": "#1E1E2E", // Sets the Explorer bar background
+    "sideBar.background": "#1E1E2E", // Sets the sidebar background
+    "sideBar.foreground": "#D4D4D5", // Optional: Adjusts text color for better contrast
+    "sideBar.border": "#282A36",
+
+    // terminal
+    "terminal.background": "#1E1E2E", // Dark, calming background
+    "terminal.foreground": "#D4D4D5", // Neutral light gray for text
+    "terminalCursor.background": "#FFFFFF", // Bright white cursor
+    "terminalCursor.foreground": "#FFFFFF", // Bright white cursor
+    "terminal.ansiBlack": "#1C1C1C", // Subtle dark for black
+    "terminal.ansiRed": "#F7768E", // Soft red for errors
+    "terminal.ansiGreen": "#9ECE6A", // Muted green for success
+    "terminal.ansiYellow": "#E0AF68", // Gold-like yellow for warnings
+    "terminal.ansiBlue": "#7AA2F7", // Calm blue for info
+    "terminal.ansiMagenta": "#BB9AF7", // Pastel purple for highlights
+    "terminal.ansiCyan": "#7DCFFF", // Bright cyan for accents
+    "terminal.ansiWhite": "#A9B1D6", // Neutral white
+    "terminal.ansiBrightBlack": "#545C7E", // Muted dark gray
+    "terminal.ansiBrightRed": "#FF7A93", // Brighter red for emphasis
+    "terminal.ansiBrightGreen": "#B9F27C", // Brighter green
+    "terminal.ansiBrightYellow": "#FF9E64", // Brighter yellow
+    "terminal.ansiBrightBlue": "#7AA2F7", // Maintain consistent blue
+    "terminal.ansiBrightMagenta": "#BB9AF7", // Maintain consistent magenta
+    "terminal.ansiBrightCyan": "#89DDFF", // Slightly brighter cyan
+    "terminal.ansiBrightWhite": "#D4D4D5" // Brighter white for highlights
+  },
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.mouseWheelZoom": true,
+  "files.autoSave": "afterDelay",
+  "codeium.enableCodeLens": false,
+  "json.schemas": [
+
   
+  ],
+  
+  "explorer.confirmDragAndDrop": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  
+"workbench.colorCustomizations": {
+    "sideBar.border": "#ffffff", 
+    "sideBar.foreground": "#70a6a5", 
+    "tree.indentGuidesStroke": "#03ff03" ,
+    "explorer.folderForeground": "#FFFFFF", 
+    "list.activeSelectionForeground": "#ff0000", // Text color of the selected folder
+    "list.activeSelectionBackground": "#333300", // Background color of the selected folder
+    "list.focusForeground": "#FFD700", // Text color when focused
+    "list.focusBackground": "#333300" 
+},"editor.tokenColorCustomizations": {
+    // Make the selected file text bold
+    "textMateRules": [
+        {
+            "scope": ["list.activeSelectionForeground"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}
+
+}
