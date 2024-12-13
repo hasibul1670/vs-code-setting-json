@@ -18,7 +18,7 @@
     // Silence the Noise
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
-    "editor.hover.delay": 1500,
+    "editor.hover.delay": 150,
     "editor.hover.enabled": true,
     "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
@@ -178,8 +178,18 @@
     "workbench.sideBar.location": "left",
     "material-icon-theme.files.color": "#42a5f5",
   "workbench.tree.enableStickyScroll": false,
-  "json.schemas": [
+  "workbench.colorCustomizations": {
+      "sideBar.border": "#ffffff",
+      "sideBar.foreground": "#70a6a5",
+      "tree.indentGuidesStroke": "#03ff03" ,
+      "explorer.folderForeground": "#FFFFFF",
+      "list.activeSelectionBackground": "#333300"
 
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "codeium.enableCodeLens": false,
+  "json.schemas": [
 
   ]
   }
